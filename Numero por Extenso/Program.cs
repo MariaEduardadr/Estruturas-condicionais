@@ -45,5 +45,3 @@ namespace Numero_por_Extenso
         }
     }
 }
-/*Escreva um programa que leia um número entre 0 e 5 e imprima o valor lido por extenso (ex: “Cinco”),
-se o número estiver fora dessa faixa imprima “Valor inválido”*/
