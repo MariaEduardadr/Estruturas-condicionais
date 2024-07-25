@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numero por Extenso", "Numero por Extenso\Numero por Extenso.csproj", "{55E0194B-BFA1-45AA-9839-78ECBD0693C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requisitos para carteira de habilitação", "Requisitos para carteira de habilitação\Requisitos para carteira de habilitação.csproj", "{4E24BBE2-A83B-4C24-9DFD-943029A4CA37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E0194B-BFA1-45AA-9839-78ECBD0693C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E0194B-BFA1-45AA-9839-78ECBD0693C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E0194B-BFA1-45AA-9839-78ECBD0693C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E0194B-BFA1-45AA-9839-78ECBD0693C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E24BBE2-A83B-4C24-9DFD-943029A4CA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E24BBE2-A83B-4C24-9DFD-943029A4CA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E24BBE2-A83B-4C24-9DFD-943029A4CA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E24BBE2-A83B-4C24-9DFD-943029A4CA37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8E093E-937A-4591-ACF5-ADC5BA30AD07}
+	EndGlobalSection
+EndGlobal
