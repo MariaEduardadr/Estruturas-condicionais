@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace Sequência_de_Fibonacci
 {
@@ -10,17 +11,18 @@ namespace Sequência_de_Fibonacci
     {
         static void Main(string[] args)
         {
-
+            int n, n1 = 1, n2 = 1, proximo;
+            Console.WriteLine("Digite a quantidade de (N) elementos:");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Os primeiros elementos da sequência de Fibonacci são {n1}, {n2}");
+            for (int i = 2; i < n; i++)
+            {
+                proximo = n1 + n2;
+                Console.Write($"{proximo} ,");
+                n1 = n2;
+                n2 = proximo;
+            }
             Console.ReadLine();
         }
     }
 }
-/*A sequência de Fibonacci tem papel importante na explicação de fenômenos naturais. Ela é
-também bastante utilizada para fins estéticos, pela sua reconhecida harmonia. Exemplo
-disso foi sua utilização na construção do Partenon, em Atenas. A sequência dá-se
-inicialmente por dois números 1. A partir do terceiro elemento usa-se a expressão: elementon
-= elementon-1 + elementon-2.
-Exemplo de sequência: 1, 1, 2, 3, 5, 8, 13, 21...
-Construa um programa que imprima na tela os n primeiros elementos da sequência de
-Fibonacci, onde n é informado pelo usuário (Considere que o primeiro número da sequência
-é n=1)*/
