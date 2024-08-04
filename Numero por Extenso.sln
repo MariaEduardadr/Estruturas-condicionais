@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo de Adivinhação", "Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progressão Aritmética", "Progressão Aritmética\Progressão Aritmética.csproj", "{6ACC2C00-FA2D-48C7-BBB2-A616D3E4BA28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operações com Vetores (x e y)", "Operações com Vetores (x e y)\Operações com Vetores (x e y).csproj", "{379A3C96-973D-4E2D-B46D-318002044C1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{6ACC2C00-FA2D-48C7-BBB2-A616D3E4BA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ACC2C00-FA2D-48C7-BBB2-A616D3E4BA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ACC2C00-FA2D-48C7-BBB2-A616D3E4BA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379A3C96-973D-4E2D-B46D-318002044C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379A3C96-973D-4E2D-B46D-318002044C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379A3C96-973D-4E2D-B46D-318002044C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379A3C96-973D-4E2D-B46D-318002044C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
